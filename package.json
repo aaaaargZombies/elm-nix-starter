@@ -1,0 +1,21 @@
+{
+  "name": "breathwork",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test:ts": "vitest",
+    "ts-check": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@hegeldev/hegel": "^0.4.5",
+    "typescript": "^7.0.2",
+    "vite": "^8.2.2",
+    "vite-plugin-elm": "^3.0.1",
+    "vitest": "^5.0.0"
+  },
+  "dependencies": {}
+}
