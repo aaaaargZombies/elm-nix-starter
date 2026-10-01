@@ -13,12 +13,10 @@ if (app.ports && app.ports.outgoing) {
         break;
 
       default:
-        exhaustive("❌ Unknown tag from Elm:", tag);
+        never(tag);
         break;
     }
   });
 }
 
-const exhaustive = (msg: string, supriseCase: never) => {
-  console.error(msg, supriseCase);
-};
+const never = (_: never) => {};
