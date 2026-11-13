@@ -1,5 +1,11 @@
 # Elm project starter
 
+To start a project with this template make a directory and run this inside it:
+
+```shell
+nix flake init -t github:aaaaargZombies/elm-nix-starter
+```
+
 ## Development
 
 ### Prerequisites
