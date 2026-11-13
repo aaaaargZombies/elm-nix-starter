@@ -37,7 +37,7 @@ update msg model =
             )
 
         Decrement ->
-            ( { model | count = model.count + 1 }
+            ( { model | count = model.count - 1 }
             , model.count
                 |> Remote.Count
                 |> Remote.outgoingValue
