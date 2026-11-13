@@ -113,5 +113,10 @@
       );
 
       formatter = forEachSupportedSystem ({ pkgs, ... }: pkgs.nixfmt);
+
+      templates.default = {
+        path = ./.;
+        description = "Nix powered Elm + TypeScript + Vite starter";
+      };
     };
 }
