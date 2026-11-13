@@ -117,6 +117,22 @@
       templates.default = {
         path = ./.;
         description = "Nix powered Elm + TypeScript + Vite starter";
+        welcomeText = ''
+          # Elm / TS starter
+
+          To get started developing run the following
+
+          ```shel
+          git init
+          git add .
+          git commit -m "init 🌱"
+
+          nix develop
+          prep-elm-home
+          npm install
+          npm run dev
+          ```
+        '';
       };
     };
 }
